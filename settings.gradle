@@ -17,6 +17,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'ReSharperPlugin.FolderGeneratorPlugin'
+rootProject.name = 'ReSharperPlugin.folder_generator_plugin'
 
 include ':protocol'

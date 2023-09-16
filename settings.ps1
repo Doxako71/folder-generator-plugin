@@ -1,5 +1,5 @@
-$PluginId = "ReSharperPlugin.FolderGeneratorPlugin"
-$SolutionPath = "$PSScriptRoot\ReSharperPlugin.FolderGeneratorPlugin.sln"
+$PluginId = "ReSharperPlugin.folder_generator_plugin"
+$SolutionPath = "$PSScriptRoot\ReSharperPlugin.folder_generator_plugin.sln"
 $SourceBasePath = "$PSScriptRoot\src\dotnet"
 
 $VsWhereOutput = [xml] (& "$PSScriptRoot\tools\vswhere.exe" -format xml -products *)

@@ -1,5 +1,5 @@
 Param(
-    $RootSuffix = "FolderGeneratorPlugin",
+    $RootSuffix = "folder_generator_plugin",
     $Version = "9999.0.0"
 )
 
