@@ -9,7 +9,9 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.ReSharper.SDK" Version="$(SdkVersion)" PrivateAssets="all" />
+    <PackageReference Include="JetBrains.Rider.Rider.Backend" Version="231.0.20230404.121133" />
     <PackageReference Include="Wave" Version="$(WaveVersion)" />
+    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +20,15 @@
     <Content Include="bin\$(AssemblyName)\$(Configuration)\$(AssemblyName).pdb" PackagePath="dotFiles" Pack="true" Visible="false" />
 
     <!-- TODO: add additional assemblies -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <HintPath>C:\Users\ylb9n\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>C:\Users\ylb9n\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\PresentationFramework.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
